@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/game"
+    tools:context="com.doppelganger.GameBase">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/cherry2"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/cherry"
+                />
+            <ImageView
+                android:id="@+id/apple2"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/apple"
+                />
+            <ImageView
+                android:id="@+id/avocado2"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/avocado"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/cupcake"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/cupcake"
+                />
+            <ImageView
+                android:id="@+id/icecream"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/icecream"
+                />
+            <ImageView
+                android:id="@+id/cherry"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/cherry"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/strwaberrycake"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/strwaberrycake"
+                />
+            <ImageView
+                android:id="@+id/avocado"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/avocado"
+                />
+            <ImageView
+                android:id="@+id/apple"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/apple"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+
+                android:id="@+id/strwaberrycake2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/strwaberrycake"
+                />
+            <ImageView
+                android:id="@+id/cupcake2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/cupcake"
+                />
+            <ImageView
+
+                android:id="@+id/icecream2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/icecream"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Textview1"
+            android:background="#FFFFFF"
+            android:layout_marginTop="30dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Doppelganger</string>
+    <string name="start_button">Start the game</string>
+    <string name="Doppelganger">Dppelganger\nGame</string>
+    <string name="Textview1">Choose the matching cards</string>
+    <string name="authintacation">Authentication</string>
+
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Log In</string>
+    <string name="already_have_account">Already have an account? Log In</string>
+    <string name="dont_have_account">Don’t have an account? Sign Up</string>
+    <string name="full_name_hint">Enter Full Name</string>
+    <string name="email_hint">Enter Email Address</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="sign_up_button">Sign Up</string>
+    <string name="log_in_button">Log In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="reset_password">Reset Password</string>
+
+    <string name="icon_person_description">Person Icon</string>
+    <string name="icon_email_description">Email Icon</string>
+    <string name="icon_password_description">Lock Icon</string>
+    <string name="icon_lock_description">Lock Icon for Password</string>
+
+    <string name="error_full_name_required">Full Name is required.</string>
+    <string name="error_email_required">Email is required.</string>
+    <string name="error_password_required">Password is required.</string>
+    <string name="error_confirm_password_required">Confirm Password is required.</string>
+    <string name="error_password_mismatch">Passwords do not match.</string>
+    <string name="error_invalid_email">Please enter a valid Email Address.</string>
+    <string name="error_short_password">Password must be at least 6 characters long.</string>
+    <string name="error_empty_field">This field cannot be empty.</string>
+    <string name="error_network">Network Error. Please check your connection.</string>
+
+    <string name="registration_successful">Registration Successful!</string>
+    <string name="login_successful">Login Successful!</string>
+    <string name="authentication_failed">Authentication Failed. Please try again.</string>
+    <string name="email_already_registered">This Email is already registered. Try logging in.</string>
+    <string name="password_reset_email_sent">Password reset email sent. Check your inbox.</string>
+    <string name="logout_successful">Logout Successful!</string>
+
+    <string name="button_register">Register</string>
+    <string name="button_submit">Submit</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_reset_password">Reset Password</string>
+    <string name="button_try_again">Try Again</string>
+
+    <string name="welcome_message">Welcome to the Authentication App</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="password_strength_hint">Password must be at least 6 characters long.</string>
+</resources>
