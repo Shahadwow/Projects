@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.doppelganger.LevelSelection">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="100dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Level"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="50dp"/>
+
+        <Button
+            android:id="@+id/level1Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 1"
+            android:backgroundTint="#A83131"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/level2Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 2"
+            android:backgroundTint="#A83131"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/level3Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 3"
+            android:backgroundTint="#A83131" />
+
+    </LinearLayout>
+
+</FrameLayout>

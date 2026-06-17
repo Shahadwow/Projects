@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="background_color">#F5F5F5</color>
+    <color name="primary_background">#E0E0E0</color>
+    <color name="hint_text">#9E9E9E</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="button_bg">#D32F2F</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="link_color">#4A90E2</color>
+    <color name="border_color">#DDDDDD</color>
+    <color name="highlight_color">#FFEB3B</color>
+    <color name="disabled_text">#BDBDBD</color>
+    <color name="disabled_button">#E0E0E0</color>
+    <color name="sign_up_button">#D32F2F</color>
+    <color name="log_in_button">#4CAF50</color>
+</resources>

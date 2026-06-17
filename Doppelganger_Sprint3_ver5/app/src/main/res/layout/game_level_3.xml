@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/game">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="8"
+        android:columnCount="3"
+        android:layout_gravity="center"
+        android:padding="16dp">
+
+
+        <ImageView
+            android:id="@+id/cupcake2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/cupcake"
+            android:layout_margin="8dp" />
+        <ImageView
+            android:id="@+id/strwaberrycake"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/strwaberrycake"
+            android:layout_margin="8dp" />
+
+        <ImageView
+            android:id="@+id/choclate_cake"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/choclate_cake"
+            android:layout_margin="8dp" />
+
+
+
+        <ImageView
+            android:id="@+id/cherry"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/cherry"
+            android:layout_margin="8dp" />
+        <ImageView
+            android:id="@+id/apple"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:src="@drawable/apple" />
+        <ImageView
+            android:id="@+id/pink_cake2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/pink_cake"
+            android:layout_margin="8dp" />
+
+
+
+
+        <ImageView
+            android:id="@+id/icecream"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/icecream"
+            android:layout_margin="8dp" />
+
+        <ImageView
+            android:id="@+id/birthday_cupcake2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/birthday_cupcake"
+            android:layout_margin="8dp" />
+
+        <ImageView
+            android:id="@+id/cupcake"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/cupcake"
+            android:layout_margin="8dp" />
+
+        <ImageView
+            android:id="@+id/birthdaycake"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/birthdaycake"
+            android:layout_margin="8dp" />
+
+
+        <ImageView
+            android:id="@+id/apple2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/apple"
+            android:layout_margin="8dp" />
+
+        <ImageView
+            android:id="@+id/berry"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/berry"
+            android:layout_margin="8dp" />
+
+        <ImageView
+            android:id="@+id/donut2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/donut"
+            android:layout_margin="8dp" />
+
+
+        <ImageView
+            android:id="@+id/pink_cake"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/pink_cake"
+            android:layout_margin="8dp" />
+
+
+        <ImageView
+            android:id="@+id/birthday_cupcake"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/birthday_cupcake"
+            android:layout_margin="8dp" />
+
+        <ImageView
+            android:id="@+id/avocado2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/avocado"
+            android:layout_margin="8dp" />
+
+
+        <ImageView
+            android:id="@+id/birthdaycake2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/birthdaycake"
+            android:layout_margin="8dp" />
+
+
+
+        <ImageView
+            android:id="@+id/choclate_cake2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/choclate_cake"
+            android:layout_margin="8dp" />
+
+
+        <ImageView
+            android:id="@+id/icecream2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/icecream"
+            android:layout_margin="8dp" />
+
+
+
+        <ImageView
+            android:id="@+id/berry2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/berry"
+            android:layout_margin="8dp" />
+
+        <ImageView
+            android:id="@+id/strwaberrycake2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/strwaberrycake"
+            android:layout_margin="8dp" />
+
+        <ImageView
+            android:id="@+id/cherry2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/cherry"
+            android:layout_margin="8dp" />
+
+        <ImageView
+            android:id="@+id/donut"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/donut"
+            android:layout_margin="8dp" />
+
+        <ImageView
+            android:id="@+id/avocado"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/avocado"
+            android:layout_margin="8dp" />
+
+    </GridLayout>
+</FrameLayout>

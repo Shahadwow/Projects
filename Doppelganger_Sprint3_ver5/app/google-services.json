@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "519622190445",
+    "firebase_url": "https://doppelganger-f5b1d-default-rtdb.firebaseio.com",
+    "project_id": "doppelganger-f5b1d",
+    "storage_bucket": "doppelganger-f5b1d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519622190445:android:629ea1c80b017f7cab2664",
+        "android_client_info": {
+          "package_name": "com.doppelganger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVLx-NzkTyyjEXjyghMLwmiQLDdIEM4XQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

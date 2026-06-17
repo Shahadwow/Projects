@@ -1,0 +1,154 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background"
+    tools:context="com.doppelganger.CardStyleActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/coins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15"
+            android:textSize="27sp"
+            android:background="@color/white"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/coin" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Card Style"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/cardStyle1"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            android:onClick="cardStyle1"
+            android:contentDescription="Card Style 1"
+            android:src="@drawable/card1" />
+
+        <ImageButton
+            android:id="@+id/cardStyle2"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            android:onClick="cardStyle2"
+            android:contentDescription="Card Style 2"
+            android:src="@drawable/card2" />
+
+        <ImageButton
+            android:id="@+id/cardStyle3"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            android:onClick="cardStyle3"
+            android:contentDescription="Card Style 3"
+            android:src="@drawable/card3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15"
+            android:textSize="24sp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="35dp"/>
+
+        <ImageView
+            android:id="@+id/Kitty1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:layout_marginStart="100dp"
+            android:src="@drawable/coin" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="24sp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="35dp"/>
+
+        <ImageView
+            android:id="@+id/simpleCard"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:layout_marginStart="100dp"
+            android:src="@drawable/coin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25"
+            android:textSize="24sp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="35dp"/>
+
+        <ImageView
+            android:id="@+id/Kitty2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:layout_marginStart="100dp"
+            android:src="@drawable/coin" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Return"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return to menu"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/adminEditButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Card Styles"
+        android:layout_marginTop="10dp"
+        android:visibility="gone" />
+</LinearLayout>
+
+
+

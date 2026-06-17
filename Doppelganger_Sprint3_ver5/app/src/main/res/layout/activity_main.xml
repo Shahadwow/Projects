@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.doppelganger.MainActivity" >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Doppelganger"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="100dp"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/flower"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/cheery1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="12dp"
+                android:src="@drawable/cherry"/>
+
+            <ImageView
+                android:id="@+id/cheery2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="12dp"
+                android:src="@drawable/cherry"
+                app:layout_constraintEnd_toStartOf="@+id/cheery1"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_button"
+            android:backgroundTint="#A83131"/>
+
+        <Button
+            android:id="@+id/cardStyles"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#A83131"
+            android:text="Card styles"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>
